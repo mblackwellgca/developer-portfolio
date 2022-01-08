@@ -3,7 +3,7 @@
 }
 
 body {
-    background-color: rgb(204, 180, 159);
+    background-color: rgb(155, 217, 236);
 }
 
 h1 {
@@ -50,8 +50,19 @@ a {
     color: rgb(88, 51, 192) !important;
 }
 
+.hover:hover {
+    opacity: 0.5;
+}
+
 .contact-link:visited {
     color: rgb(83, 87, 99);
+}
+
+.selfie {
+    height: 200px; width: 350;
+    float: right;
+    border-radius: 28px;
+    border: 4px solid rgb(211, 35, 137);
 }
 
 @media screen and (max-width: 575.5px) {
