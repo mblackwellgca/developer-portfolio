@@ -1,0 +1,66 @@
+* {
+    font-family: 'Oswald', sans-serif;
+}
+
+body {
+    background-color: rgb(204, 180, 159);
+}
+
+h1 {
+    font-size: 3em;
+}
+
+#nameplate {
+    padding-top: 4em;
+}
+
+.row {
+    margin-top: 1em;
+}
+
+.blockTitle {
+    font-size: 2em;
+    border-right: black 3px solid;
+    border-bottom: none;
+    text-align: right;
+}
+
+.headroom {
+    padding-top: 3em!important;
+}
+
+footer, nav {
+    max-height: 3em;
+}
+
+a {
+    padding: 0.5em;
+    text-decoration: none;
+}
+
+.card-link {
+    color: rgb(226, 226, 226);
+}
+
+.contact-link  {
+    color: black;
+}
+
+.card-link:hover, .contact-link:hover {
+    color: rgb(88, 51, 192) !important;
+}
+
+.contact-link:visited {
+    color: rgb(83, 87, 99);
+}
+
+@media screen and (max-width: 575.5px) {
+    .blockTitle {
+        border-right: none;
+        border-bottom: black 3px solid;
+    }
+
+    .selfie {
+        width: 100%;
+    }
+}
