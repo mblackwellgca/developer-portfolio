@@ -1,77 +1,125 @@
-* {
-    font-family: 'Oswald', sans-serif;
+:root {
+    --mint: rgb(159, 235, 231);
+    --text: black;
+    --fush: fuchsia;
+    --head: rgb(72, 228, 72);
 }
 
-body {
-    background-color: rgb(155, 217, 236);
+header {
+    background-color: rgb(197, 197, 191);
+    display: flex inline;
+    padding: 2px;
+    color: var(--text);
 }
 
 h1 {
-    font-size: 3em;
+    display: inline-block;
+    font-size: 45px;
 }
 
-#nameplate {
-    padding-top: 4em;
+nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-size: 20px;
 }
 
-.row {
-    margin-top: 1em;
+nav ul li {
+    display: inline-block;
+    margin-left: 25px;
 }
 
-.blockTitle {
-    font-size: 2em;
-    border-right: black 3px solid;
-    border-bottom: none;
-    text-align: right;
+body {
+    background-image: linear-gradient(var(--mint), rgb(69, 102, 211));
+    color: var(--text);
+    font-size: 20px;
 }
 
-.headroom {
-    padding-top: 3em!important;
-}
-
-footer, nav {
-    max-height: 3em;
-}
-
-a {
-    padding: 0.5em;
-    text-decoration: none;
-}
-
-.card-link {
-    color: rgb(226, 226, 226);
-}
-
-.contact-link  {
-    color: black;
-}
-
-.card-link:hover, .contact-link:hover {
-    color: rgb(88, 51, 192) !important;
-}
-
-.hover:hover {
-    opacity: 0.5;
-}
-
-.contact-link:visited {
-    color: rgb(83, 87, 99);
+#aboutme {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .selfie {
-    height: 200px; width: 350;
     float: right;
     border-radius: 28px;
-    border: 4px solid rgb(211, 35, 137);
+    padding: 10px;
+    margin-bottom: 12px;
+    border:1px solid var(--text);
+    background-color: var(--fush);
 }
 
-@media screen and (max-width: 575.5px) {
-    .blockTitle {
-        border-right: none;
-        border-bottom: black 3px solid;
-    }
+#mywork {
+    margin-top: 8px;
+    display: flex;
+    flex-wrap: wrap;
+}
 
-    .selfie {
-        width: 100%;
-    }
+.largecard {
+    flex: 1 0 100%;
+}
+
+.smallcard {
+    flex: 1 0 0;
+}
+
+.sample {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: auto;
+    color: var(--text);
+    border: 8px solid var(--head);
+    transition: all 0.5s ease-in-out;
+    border-radius: 20px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+h3 {
+    position: relative;
+    text-align: center;
+    margin: -18px 60px 2px 60px;
+    padding: 2px;
+    background-color: var(--fush);
+    color: wheat;
+    border: 2px solid var(--head);  
+    border-radius: 20px;
+    transition: all 0.5s ease-in-out;
+}
+
+.hover {
+    width: 100%;
+    height: auto;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.sample:hover,
+.sample:hover h3 {
+    opacity: 0.7;
+}
+
+#close {
+    font-weight: bold;
+    text-align: center;
+    color: var(--mint);
+}
+
+#contact {
+    font-weight: bold;
+    text-align: center;
+    color: var(--fush);
+}
+
+footer{
+    font-weight: bolder;
+    text-align: center;
+    color: var(--mint);
 }
