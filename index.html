@@ -28,13 +28,13 @@
         </header>
 
         <!-- "About Me" section with brand statement -->
-        <section class='container-fluid headroom' id='aboutMe'>
+        <section class='container-fluid headroom' id='aboutMe'> <!--headroom added for asthetics-->
             <div class='row'>
                 <div class='col-sm-3 blockTitle'>About</div>
                 <div class='col-sm-9 clearfix'>
                     <img class = "selfie" src="./assets/images/Blackwell_Michelle_200.jpg" alt="a photo of Michelle Blackwell">
                     <p>Welcome to my portofolio! My name is Michelle Blackwell and I am glad you stopped by to check out my work. I have been an educator since 2007 teaching math and history while serving as tech support for my school from 2008-2018.
-                        In 2018 I began a new journey in serving my school more formally on the tech side as the Systems and Programs Specialist and now Coordinator. Learning to code and web development is my newest journey and I am excited to grow in this field.
+                        In 2018 I began a new journey in serving my school more formally on the tech side as the Systems and Programs Specialist and now Coordinator. Learning to code and web development is my newest journey and I am excited to grow in this field!
                     </p>
                         <br>
                     <p>A quick study with an efficient mindset, my goal is to create and streamline web-based applications with my schools current programs. It amazes me that current programs in education are so open-source and allow users to create what they
@@ -48,6 +48,7 @@
         <section id='appBlock' class='container-fluid headroom'>
             <!-- wraps the entire project section in order to have the side-set title column -->
             <div class='row'>
+                <!--uses bootstrap grids col-sm-3 and col-sm-9-->
                 <div class='col-sm-3 blockTitle'>Apps</div>
                 <div class='col-sm-9'>
                     <!-- first and largest project card -->
@@ -66,10 +67,11 @@
                             </div>
                         </div> 
                     </div>
+                    <!--next project card-->
                     <div class='row'>
                         <div class='col-sm-6'>
                             <div class="card bg-dark text-white">
-                                <img src="./assets/images/code1.jpg" class="card-img-top" alt="placeholder for future projects">
+                                <a class = "hover" href="placeholder"><img src="./assets/images/code1.jpg" class="card-img-top" alt="placeholder for future projects"></a>
                                 <div class="card-body">
                                     <h4 class="card-title">Placeholder for future project</h5>
                                     <p class="card-text">Placeholder.</p>
@@ -78,9 +80,10 @@
                                 </div>
                             </div>
                         </div>
+                        <!--next project card-->
                         <div class='col-sm-6'>
                             <div class="card bg-dark text-white">
-                                <img src="./assets/images/01-html-css-git-homework-demo.png" class="card-img-top" alt="Horiseon Code Refractoring">
+                                <a class = "hover" href="https://mblackwellgca.github.io/horiseon-code-refractor/"><img src="./assets/images/01-html-css-git-homework-demo.png" class="card-img-top" alt="Horiseon Code Refractoring"></a>
                                 <div class="card-body">
                                     <h4 class="card-title">Horiseon</h5>
                                     <p class="card-text">Refractoring the code so that the images would be more user friendly to those users with screen readers making the site more accessible for all. Also, edited the code for semantics and organization,
