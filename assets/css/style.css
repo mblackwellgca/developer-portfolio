@@ -1,3 +1,4 @@
+/* root variables set to keep color selections accurate*/
 :root {
     --mint: rgb(159, 235, 231);
     --text: black;
@@ -46,8 +47,14 @@ body {
     border-radius: 28px;
     padding: 10px;
     margin-bottom: 12px;
+    margin-left: 20px;
     border:1px solid var(--text);
     background-color: var(--fush);
+}
+
+.me {
+    padding: 60px;
+
 }
 
 #mywork {
@@ -78,8 +85,11 @@ body {
 }
 
 h2 {
-    text-align: center;
+    text-align: left;
     margin-top: 20px;
+    color: black;
+    padding-left: 25px;
+    float: left;
 }
 
 h3 {
@@ -122,4 +132,5 @@ footer{
     font-weight: bolder;
     text-align: center;
     color: var(--mint);
+    
 }
