@@ -105,6 +105,18 @@ h3 {
     transition: all 0.5s ease-in-out;
 }
 
+.links {
+    position: relative;
+    text-align: center;
+    margin: -18px 60px 2px 60px;
+    padding: 6px;
+    background-color: var(--fush);
+    color: wheat;
+    border: 2px solid var(--head);  
+    border-radius: 20px;
+    transition: all 0.5s ease-in-out;
+}
+
 /*added hover effects for aesthetics*/
 .hover {
     width: 100%;

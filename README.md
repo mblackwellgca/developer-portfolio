@@ -8,10 +8,11 @@ Github: https://github.com/mblackwellgca/developer-portfolio
 
 ## Description
 * Learning to code and develop webpages using coding to build has opened a new world of seemily limitless posibilities. Please enjoy this compilation of work samples as I explore this new and exciting journey towards becoming a developer!
+![Developer Portfolio Screenshot](./assets/images/developer-portfolio-screenshot.png)
 
 ## Credits:
 * Sandra Smith
-* Christopher Ponzio 
+* Christopher Ponzio https://github.com/ChristopherPonzio
 * Website Resources: 
     * https://www.w3schools.com/cssref/sel_root.asp
     * https://developer.mozilla.org/en-US/docs/Web/CSS/display
