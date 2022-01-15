@@ -44,7 +44,7 @@ body {
 
 .selfie {
     float: right;
-    border-radius: 28px;
+    border-radius: 50%;
     padding: 10px;
     margin-bottom: 12px;
     margin-left: 20px;
