@@ -83,6 +83,7 @@ body {
 }
 /*styles for the one largest card*/
 .largecard {
+    margin-left: 10%;
     flex: 1 0 100%;
 }
 
