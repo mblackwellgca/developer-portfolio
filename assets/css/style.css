@@ -3,7 +3,7 @@
     --mint: rgb(159, 235, 231);
     --text: black;
     --fush: fuchsia;
-    --head: lime;
+    --head: #CAB7D2;
 }
 
 header {
@@ -154,18 +154,18 @@ h3 {
 #close {
     font-weight: bold;
     text-align: center;
-    color: var(--head);
+    color: black;
 }
 
 #contact {
     font-weight: bold;
     text-align: center;
-    color: var(--fush);
+    color: #230033;
 }
 
 footer{
     font-weight: bolder;
     text-align: center;
-    color: var(--head;
+    color: #230033;
     
 }
