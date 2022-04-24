@@ -2,9 +2,9 @@
 * developer-portfolio
 
 # Links:
-Live Application: https://mblackwellgca.github.io/developer-portfolio/
+Live Application: https://mblackwellgca.github.io/initialPortfolio/
 
-Github: https://github.com/mblackwellgca/developer-portfolio 
+Github: https://github.com/mblackwellgca/initialPortfolio 
 
 ## Description
 * Learning to code and develop webpages using coding to build has opened a new world of seemily limitless posibilities. Please enjoy this compilation of work samples as I explore this new and exciting journey towards becoming a developer!
